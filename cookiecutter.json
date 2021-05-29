@@ -1,0 +1,20 @@
+{
+    "full_name": "Benny Huo",
+    "email": "bennyhuo@kotliner.cn",
+    "github_username": "bennyhuo",
+    "project_name": "Android-Library-Template",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "",
+    "version": "1.0",
+    "group": "com.bennyhuo",
+    "artifact_id": "",
+    "module_name": "{{ cookiecutter.artifact_id }}",
+    "package_name": "{{ cookiecutter.group }}.{{ cookiecutter.artifact_id.replace('-', '') }}",
+    "package_dir": "{{ cookiecutter.package_name.replace('.', '/') }}",
+    "kotlin_version": "1.4.32",
+    "gradle_version": "6.8.3",
+
+    "_copy_without_render": [
+        "gradlew*"
+    ]
+  }
