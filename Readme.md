@@ -2,10 +2,17 @@
 
 Template for android libraries using cookiecutter.
 
-Install cookiecutter first:
+Install cookiecutter and PyGithub first:
 
 ```bash
 pip install cookiecutter
+pip install PyGithub
+```
+
+or use the requirments.txt file:
+
+```bash
+pip install -r requirements.txt
 ```
 
 Then create project with:
