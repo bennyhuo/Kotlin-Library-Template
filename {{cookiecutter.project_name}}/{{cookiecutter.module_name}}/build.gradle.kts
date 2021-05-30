@@ -1,7 +1,7 @@
 plugins {
     id("com.android.library")
     kotlin("android")
-    kotlin("android-extensions")
+    kotlin("android.extensions")
 
     id("com.vanniktech.maven.publish")
 }

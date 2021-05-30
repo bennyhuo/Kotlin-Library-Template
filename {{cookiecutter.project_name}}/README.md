@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 
-# {{cookiecutter.project_name}}
+# {{cookiecutter.project_full_name}}
 
 
 
