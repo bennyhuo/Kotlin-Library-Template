@@ -1,1 +1,1 @@
-include(":app",":{{cookiecutter.module_name}}")
+include(":sample",":{{cookiecutter.module_name}}")

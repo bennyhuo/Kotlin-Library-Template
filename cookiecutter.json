@@ -12,7 +12,7 @@
     "module_name": "{{ cookiecutter.artifact_id }}",
     "package_name": "{{ cookiecutter.group }}.{{ cookiecutter.artifact_id.replace('-', '') }}",
     "package_dir": "{{ cookiecutter.package_name.replace('.', '/') }}",
-    "kotlin_version": "1.4.32",
+    "kotlin_version": "1.5.30",
     "gradle_version": "6.8.3",
 
     "_copy_without_render": [

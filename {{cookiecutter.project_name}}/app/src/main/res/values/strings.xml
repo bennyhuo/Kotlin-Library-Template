@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">{{cookiecutter.project_full_name}}</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-</resources>

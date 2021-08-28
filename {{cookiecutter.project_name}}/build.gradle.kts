@@ -4,7 +4,6 @@ buildscript {
         maven("https://mirrors.tencent.com/nexus/repository/maven-public/")
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:4.0.1")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:{{cookiecutter.kotlin_version}}")
 
         classpath("com.vanniktech:gradle-maven-publish-plugin:0.14.2")
@@ -17,9 +16,4 @@ subprojects {
     repositories {
         maven("https://mirrors.tencent.com/nexus/repository/maven-public/")
     }
-}
-
-tasks.register<Delete>(name = "clean") {
-    group = "build"
-    delete(rootProject.buildDir)
 }
